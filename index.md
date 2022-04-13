@@ -4,7 +4,7 @@ One-shot voice conversion (VC) aims to convert speech from any source speaker to
 
 ---
 
-## Any-to-any Conversion
+## Any-to-Any Conversion
 
 All of the following audios are converted from **an unseen speaker** to **another unseen speaker** during training. For a fair comparison to the baseline models, all audios are downsampled to 16k Hz. The input to AGAIN-VC	and StyleTTS-VC was trimmed so the output has a different length from the input. 
 
@@ -14,25 +14,25 @@ For more audio samples, please go to our survey used for MOS evaluation [here](h
 
 **Sample 1 and 2**
 
-|              | Sample 1 (p267 → p287) | Sample 2 (p252 → p278) |
+|              | Sample 1 (p267 → p287) | Sample 2 (p287 → p256) |
 |:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p287.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p278.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p287.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p278.wav"></source> </audio> |
-|    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p287.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p278.wav"></source> </audio>     |
-|    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p287.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p278.wav"></source> </audio>     |
-| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p287.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p278.wav"></source> </audio>      |
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p287.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p256.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p287.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p256.wav"></source> </audio> |
+|    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p287.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p256.wav"></source> </audio>     |
+|    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p287.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p256.wav"></source> </audio>     |
+| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p287.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p256.wav"></source> </audio>      |
 
 **Sample 3 and 4**
 
-|              | Sample 3 (p287 → p256) | Sample 4 (p256 → p268) |
+|              | Sample 3 (p252 → p278) | Sample 4 (p256 → p268) |
 |:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p256.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p268.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p256.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p268.wav"></source> </audio> |
-|    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p256.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p268.wav"></source> </audio>     |
-|    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p256.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p268.wav"></source> </audio>     |
-| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p256.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p268.wav"></source> </audio>      |
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p278.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p268.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p278.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p268.wav"></source> </audio> |
+|    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p278.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p268.wav"></source> </audio>     |
+|    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p278.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p268.wav"></source> </audio>     |
+| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p278.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p268.wav"></source> </audio>      |
 
-**Sample 4 and 5**
+**Sample 5 and 6**
 
 |              | Sample 5 (p273 → p232) | Sample 6 (p300 → p339) |
 |:------------:|:-------:|:-------:|
@@ -45,3 +45,29 @@ For more audio samples, please go to our survey used for MOS evaluation [here](h
 ---
 
 ## Ablation Study
+
+We present four samples of ablation study for conditions described in Table 2 in our paper on VCTK dataset. 
+
+**Sample 1 and 2**
+
+|              | Sample 1 | Sample 2 |
+|:------------:|:-------:|:-------:|
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/source/10.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/source/31.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/gt/10.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/gt/31.wav"></source> </audio> |
+|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/baseline/10.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/baseline/31.wav"></source> </audio>     |
+|    **No ASR Loss**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/noasr/10.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/noasr/31.wav"></source> </audio>     |
+| **No Cycle Loss** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/nocycle/10.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/nocycle/31.wav"></source> </audio>      |
+| **With Latent Loss** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/latent/10.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/latent/31.wav"></source> </audio>      |
+
+**Sample 3 and 4**
+
+|              | Sample 3 | Sample 4 |
+|:------------:|:-------:|:-------:|
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/source/33.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/source/37.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/gt/33.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/gt/37.wav"></source> </audio> |
+|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/baseline/33.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/baseline/37.wav"></source> </audio>     |
+|    **No ASR Loss**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/noasr/33.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/noasr/37.wav"></source> </audio>     |
+| **No Cycle Loss** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/nocycle/33.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/nocycle/37.wav"></source> </audio>      |
+| **With Latent Loss** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/latent/33.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/ablation/latent/37.wav"></source> </audio>      |
+
+
