@@ -22,7 +22,7 @@ For more audio samples, please go to our survey used for MOS evaluation [here](h
 |    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p268.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p278.wav"></source> </audio>     |
 | **StyleTTS-VC** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p268.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p278.wav"></source> </audio>      |
 
-**Sample 3 and 4 **
+**Sample 3 and 4**
 
 |              | Sample 3 (p267 → p256) | Sample 4 (p273 → p287) |
 |:------------:|:-------:|:-------:|
