@@ -6,7 +6,7 @@ One-shot voice conversion (VC) aims to convert speech from any source speaker to
 
 ## Any-to-any Conversion
 
-All of the following audios are converted from **an unseen speaker** to **another unseen speaker** during training. For a fair comparison to the baseline models, all audios are downsampled to 16k Hz.
+All of the following audios are converted from **an unseen speaker** to **another unseen speaker** during training. For a fair comparison to the baseline models, all audios are downsampled to 16k Hz. The input to AGAIN-VC	and StyleTTS-VC was trimmed so the output has a different length from the input. 
 
 **All utterances are completely unseen during training, and the results are uncurated (NOT cherry-picked) unless otherwise specified**.
 
@@ -20,7 +20,7 @@ For more audio samples, please go to our survey used for MOS evaluation [here](h
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p268.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p278.wav"></source> </audio> |
 |    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p268.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p278.wav"></source> </audio>     |
 |    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p268.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p278.wav"></source> </audio>     |
-| **StyleTTS-VC** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p268.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p278.wav"></source> </audio>      |
+| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p268.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p278.wav"></source> </audio>      |
 
 **Sample 3 and 4**
 
@@ -31,6 +31,16 @@ For more audio samples, please go to our survey used for MOS evaluation [here](h
 |    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p256.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p287.wav"></source> </audio>     |
 |    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p256.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p287.wav"></source> </audio>     |
 | **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p256.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p287.wav"></source> </audio>      |
+
+**Sample 4 and 5**
+
+|              | Sample 5 (p273 → p232) | Sample 6 (p300 → p339) |
+|:------------:|:-------:|:-------:|
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p232.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/source/p339.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p232.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/gt/p339.wav"></source> </audio> |
+|    **AGAIN-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p232.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/againvc/p339.wav"></source> </audio>     |
+|    **VQMIVC-VC**   |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p232.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/vqmivc/p339.wav"></source> </audio>     |
+| **StyleTTS-VC (Proposed)** |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p232.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="https://raw.githubusercontent.com/styletts-vc/styletts-vc.github.io/main/demo/stylettsvc/p339.wav"></source> </audio>      |
 
 ---
 
