@@ -6,7 +6,7 @@ One-shot voice conversion (VC) aims to convert speech from any source speaker to
 
 ## Any-to-Any Conversion
 
-All of the following audios are converted from **an unseen speaker** to **another unseen speaker** during training. For a fair comparison to the baseline models, all audios are downsampled to 16k Hz. The input to AGAIN-VC	and StyleTTS-VC was trimmed so the output has a different length from the input. 
+All of the following audios are converted from **an unseen speaker** to **another unseen speaker** during training. For a fair comparison to the baseline models, all audios are downsampled to 16k Hz. The input to VC models was trimmed so the output has a different length from the input. 
 
 **All utterances are completely unseen during training, and the results are uncurated (NOT cherry-picked) unless otherwise specified**.
 
